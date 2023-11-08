@@ -1,0 +1,26 @@
+{
+	"candidates": [
+		{
+			"formatted_address": "R. 14 - Parque Res. das Flores, Anápolis - GO, 75085-450, Brasil",
+			"geometry": {
+				"location": {
+					"lat": -16.28897,
+					"lng": -48.9194478
+				},
+				"viewport": {
+					"northeast": {
+						"lat": -16.28762017010728,
+						"lng": -48.91809797010728
+					},
+					"southwest": {
+						"lat": -16.29031982989272,
+						"lng": -48.92079762989272
+					}
+				}
+			},
+			"name": "R. 14 - Parque Res. das Flores",
+			"place_id": "ChIJD8ybRdWlXpMRaM13xUlup0o"
+		}
+	],
+	"status": "OK"
+}

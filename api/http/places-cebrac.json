@@ -1,0 +1,47 @@
+{
+	"candidates": [
+		{
+			"formatted_address": "R. Rui Barbosa, 155 - 2º andar - St. Central, Anápolis - GO, 75025-060, Brasil",
+			"geometry": {
+				"location": {
+					"lat": -16.3255959,
+					"lng": -48.9571686
+				},
+				"viewport": {
+					"northeast": {
+						"lat": -16.32423737010728,
+						"lng": -48.95581812010728
+					},
+					"southwest": {
+						"lat": -16.32693702989272,
+						"lng": -48.95851777989272
+					}
+				}
+			},
+			"name": "Cebrac Cursos Anápolis",
+			"place_id": "ChIJ89u8MnikXpMR936cs-_kjwU"
+		},
+		{
+			"formatted_address": "R. Leopoldo de Bulhões, 153 - St. Central, Anápolis - GO, 75043-035, Brasil",
+			"geometry": {
+				"location": {
+					"lat": -16.3214067,
+					"lng": -48.95671489999999
+				},
+				"viewport": {
+					"northeast": {
+						"lat": -16.32003152010727,
+						"lng": -48.95531242010728
+					},
+					"southwest": {
+						"lat": -16.32273117989272,
+						"lng": -48.95801207989272
+					}
+				}
+			},
+			"name": "Cebrac Cursos Anápolis - Polo Prático Tecnológico",
+			"place_id": "ChIJtXI5WoOlXpMRkyqW7uNiJA8"
+		}
+	],
+	"status": "OK"
+}

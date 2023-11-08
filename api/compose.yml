@@ -1,0 +1,25 @@
+version: '3'
+
+
+services:
+  app:
+    build: .
+    container_name: app
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/home/node/app
+  
+  mongo-db:
+    container_name: mongodb
+    image: bitnami/mongodb
+    volumes:
+      - mongodb_data:/bitnami
+    environment:
+      - MONGODB_ROOT_PASSWORD=root
+      - MONGODB_DATABASE=nest
+      - MONGODB_REPLICA_SET_MODE=primary
+      - MONGODB_REPLICA_SET_KEY=40028922
+volumes:
+  mongodb_data:
+    driver: local
